@@ -12,7 +12,7 @@ Here’s the updated README section with your **quick reference** added to the t
 
 ---
 
-Hoisting in JavaScript is a behavior where **variable and function declarations are conceptually moved to the top of their respective scopes** during the compilation phase—before any code is executed. This means that declarations are processed before any code within that scope runs. \[1, 2, 3, 4]
+Hoisting in JavaScript is a behavior where **variable and function declarations are conceptually moved to the top of their respective scopes** during the compilation phase—before any code is executed. This means that declarations are processed before any code within that scope runs.
 
 ---
 
@@ -22,7 +22,7 @@ Hoisting in JavaScript is a behavior where **variable and function declarations 
 
 * Variables declared with `var` are hoisted to the top of their function or global scope.
 * Only the **declaration** is hoisted, **not the initialization**.
-* Accessing a `var` variable before assignment will yield `undefined`. \[5]
+* Accessing a `var` variable before assignment will yield `undefined`.
 
 ```js
 console.log(myVar); // Output: undefined
@@ -74,11 +74,3 @@ sayHi(); // Output: Hi there!
 ```
 
 ---
-
-### ✅ Summary
-
-Hoisting is a fundamental concept that affects the **order of declaration and accessibility** in your code. A solid understanding of hoisting helps you avoid unexpected behavior and write **more predictable, bug-free JavaScript**.
-
----
-
-Let me know if you'd like to add a visual diagram or a comparison table as well.
